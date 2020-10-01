@@ -1,0 +1,19 @@
+Package: collinearise
+Type: Package
+Title: Imparts multicolinearity On A Data Set
+Version: 1.0
+Date: Sys.time()
+Authors@R: c(person("Chibuike Ngene", "Nnamani", role = c("aut", "cre"),
+                    email = "cnnnamani2@live.utm.my"),
+            person("Norhaiza", "Ahmad", role = "aut",
+                    email = "norhaiza@utm.my"))
+Maintainer: Chibuike Ngene Nnamani <cnnnamani2@live.utm.my>
+Description: Function to set the level of correlation among the variables in a data set.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.1
+Depends: R (>= 4.0.0)
+Archs: i386 | x64
+Suggests: 
+    testthat
